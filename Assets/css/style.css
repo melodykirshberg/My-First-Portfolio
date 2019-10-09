@@ -167,3 +167,11 @@ h3 {
 .form {
     width: 100%;
 }
+
+#img1 {
+    float: left;
+}
+
+#img2{
+    float: left;
+}
