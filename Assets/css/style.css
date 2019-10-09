@@ -1,7 +1,3 @@
-/**
- * Float Layout Activity
- **/
-
  * {
     box-sizing: border-box;
     text-align: center;
@@ -17,7 +13,8 @@
   header {
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
+    margin-top: -5px;
+    text-align: center;
     background: #ffffff;
     border-color: #cccccc;
     border-style: solid;
@@ -84,6 +81,7 @@
   }
   
   footer {
+    border-top: 8px solid #4aaaa5;
     padding: 20px;
     clear: both;
     background: #666666;
