@@ -1,6 +1,5 @@
  * {
     box-sizing: border-box;
-    text-align: center;
   }
   
   body {
@@ -13,6 +12,7 @@
   header {
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
     margin-top: -5px;
     text-align: center;
     background: #ffffff;
@@ -27,6 +27,8 @@
   }
   
   #left {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 35px;
     float: left;
     width: 50%;
     color: #fff;
@@ -34,30 +36,37 @@
   }
   
   #middle {
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
     float: right;
     width: 16.22%;
-    color: #fff;
-    background: #9E1212;
+    background: white;
   }
 
   #second {
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
       float: right;
       width: 16.22%;
-      color: white;
-      background: purple;
+      background: white;
   }
   
   #right {
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
     float: right;
     width: 16.22%;
-    color: #fff;
-    background: #30948D;
+    background: white;
   }
   
   #full {
     width: 100%;
     overflow: auto;
     clear: both;
+align-content: center;
     color: #777777;
     border-style: solid;
     border-color: #dddddd;
@@ -67,7 +76,7 @@
   #division {
     padding: 20px;
     margin-top: 20px;
-    background: #214fb3;
+    background: #ffffff;
   }
   
   aside {
@@ -75,9 +84,7 @@
     width: 33%;
     height: 200px;
     padding: 20px;
-    margin-left: 30px;
-    background: #a6b747;
-    border: 1px solid #eee;
+    margin-left: 20px;
   }
   
   footer {
