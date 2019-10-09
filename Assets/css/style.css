@@ -7,6 +7,7 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 32px;
     color: #333;
+    margin: 0;
   }
   
   header {
@@ -28,37 +29,35 @@
   
   #left {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-left: 20px;
     font-size: 35px;
     float: left;
-    width: 50%;
+    width: 13%;
     color: #fff;
     background: #30948D;
   }
   
   #middle {
-    border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 20px;
     float: right;
-    width: 16.22%;
+    width: 10.22%;
     background: white;
   }
 
   #second {
-    border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 20px;
       float: right;
-      width: 16.22%;
+      width: 10.22%;
       background: white;
   }
   
   #right {
-    border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 20px;
     float: right;
-    width: 16.22%;
+    width: 10.22%;
     background: white;
   }
   
