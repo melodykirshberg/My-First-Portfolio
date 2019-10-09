@@ -1,64 +1,65 @@
 .clearfix {
     overflow: auto;
-  }
+}
 
 body {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 32px;
     color: #333;
-  }
-  
-  header {
+}
+
+header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     text-align: center;
     background: #ffffff;
     border-color: #cccccc;
     border-style: solid;
-  }
-  
-  section {
+}
+
+section {
     padding: 20px;
-    margin-bottom: 20px;
-    background: #FFA500;
-  }
-  
-  #left {
+    margin-bottom: 60px;
+    background: url("/Assets/images/back.png");
+}
+
+#left {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding-left: 20px;
+    padding-left: 40px;
+    margin: 20px;
     font-size: 35px;
     float: left;
     width: 13%;
     color: #fff;
     background: #30948D;
-  }
-  
-  #middle {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 20px;
-    float: right;
-    width: 10.22%;
-    background: white;
-  }
+}
 
-  #second {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 20px;
-      float: right;
-      width: 10.22%;
-      background: white;
-  }
-  
-  #right {
+#contact {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 20px;
     float: right;
     width: 10.22%;
     background: white;
-  }
-  
-  #full {
+}
+
+#port {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
+    float: right;
+    width: 10.22%;
+    background: white;
+}
+
+#about {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
+    float: right;
+    width: 10.22%;
+    background: white;
+}
+
+#full {
     width: 100%;
     overflow: auto;
     align-content: center;
@@ -66,26 +67,51 @@ body {
     border-style: solid;
     border-color: #dddddd;
     background: #ffffff;
-  }
-  
-  #division {
+}
+
+#division {
     overflow: auto;
     margin: 80px;
     background: #ffffff;
-  }
-  
-  aside {
+}
+
+aside {
     float: left;
     width: 33%;
     height: 200px;
     padding: 20px;
     margin-left: 20px;
-  }
-  
-  footer {
+}
+
+footer {
     border-top: 8px solid #4aaaa5;
     padding: 20px;
     clear: both;
     background: #666666;
-  }
-  
+}
+
+.navbar {
+    overflow: visible;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Sticky Footer */
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
