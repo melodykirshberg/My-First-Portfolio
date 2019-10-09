@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .masthead {
+    padding: 6em 0;
+    background-image: url('../img/code.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+  
+  .masthead-intro {
+      margin-bottom: 0.1em;
+      font-size: 2em;
+      color: #ffffff;
+  }
+  
+  body {
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+  
+  header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #FFA500;
+  }
+section {
+    padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+#left {
+    float: left;
+    color: #fff;
+    background: #30948D;
+}
+
+#links{
+    padding: 20px;
+  margin-top: 20px;
+  background: #214fb3;
+}
