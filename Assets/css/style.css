@@ -1,20 +1,17 @@
- * {
-    box-sizing: border-box;
+.clearfix {
+    overflow: auto;
   }
-  
-  body {
+
+body {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 32px;
     color: #333;
-    margin: 0;
   }
   
   header {
-    padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    margin-top: -5px;
     text-align: center;
     background: #ffffff;
     border-color: #cccccc;
@@ -64,8 +61,7 @@
   #full {
     width: 100%;
     overflow: auto;
-    clear: both;
-align-content: center;
+    align-content: center;
     color: #777777;
     border-style: solid;
     border-color: #dddddd;
@@ -73,8 +69,8 @@ align-content: center;
   }
   
   #division {
-    padding: 20px;
-    margin-top: 20px;
+    overflow: auto;
+    margin: 80px;
     background: #ffffff;
   }
   
