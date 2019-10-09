@@ -45,20 +45,15 @@ header {
     text-align: center;
     background: #ffffff;
     border-color: #cccccc;
+    font-size: 40px;
     border-style: solid;
 }
 
 section {
+    float: none;
     padding: 20px;
     margin-bottom: 60px;
-    background: url("/Assets/images/back.png");
-}
 
-.foo {
-    float: left;
-    height: 200px;
-    padding: 20px;
-    margin-left: 20px;
 }
 
 footer {
@@ -67,18 +62,16 @@ footer {
     text-align: center;
     clear: both;
     background: #666666;    
-    text-decoration: none;
 
 }
 
 /* Sticky Footer */
-
 .sticky {
     overflow: visible;
     position: -webkit-sticky;
     position: fixed;
     bottom: 0;
-    height: 100px;
+    height: 80px;
     background: white;
     /* margin: 20px; */
     width: 100%;
@@ -98,22 +91,16 @@ footer {
 }
 
 #contact {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 20px;
     float: right;
     background: white;
 }
 
 #port {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 20px;
     float: right;
     background: white;
 }
 
 #about {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 20px;
     float: right;
     background: white;
 }
@@ -122,10 +109,9 @@ footer {
     width: 100%;
     overflow: auto;
     align-content: center;
-    color: #777777;
-    border-style: solid;
+        border-style: solid;
     border-color: #dddddd;
-    background: yellow;
+    background: white;
 }
 
 .divsion {
@@ -133,4 +119,46 @@ footer {
     margin: 80px;
     float: clear;
     background: #ffffff;
+}
+
+.work{
+    position: relative;
+    width: 280px;
+    margin: 20px 0;
+    overflow: auto;
+}
+
+#dog{
+    float: left;
+    margin-right: 20px;
+}
+.work img{
+    width: 100%;}
+
+.work h3 {
+    background-color: lightgray;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h3{
+    display: block;
+    
+}
+
+.textarea {
+    width: 100%;
+    height: 40px;
+}
+
+.subject {
+    width: 100%;
+    height: 150px;
+}
+.form {
+    width: 100%;
 }
