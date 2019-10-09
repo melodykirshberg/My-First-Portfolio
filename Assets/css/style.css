@@ -128,7 +128,7 @@ footer {
     position: relative;
     width: 280px;
     margin: 20px 0;
-    overflow: auto;
+    padding: 0;
 }
 
 #dog {
