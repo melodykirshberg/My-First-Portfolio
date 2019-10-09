@@ -3,6 +3,8 @@
 /*To fix float*/
 .container{
     width: 960px;
+    justify-content: center;
+    margin: auto;
 }
 .clearfix {
     overflow: auto;
@@ -34,7 +36,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 32px;
     color: #333;
-    background: url("/Assets/images/back.png");
+    background-image: url("../images/back.png");
 }
 
 header {
@@ -78,6 +80,8 @@ footer {
     bottom: 0;
     height: 100px;
     background: white;
+    /* margin: 20px; */
+    width: 100%;
 }
 
 /*---------change to classes*/
@@ -127,5 +131,6 @@ footer {
 .divsion {
     overflow: auto;
     margin: 80px;
+    float: clear;
     background: #ffffff;
 }
