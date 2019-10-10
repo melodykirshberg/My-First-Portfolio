@@ -90,14 +90,14 @@ footer {
 }
 
 .work img {
-    width: 100%;
+    width: auto;
 }
 
 .work h3 {
     background-color: lightgray;
     position: absolute;
     bottom: 20px;
-    width: 100%;
+    width: 71.6%;
     padding: 15px 0;
     margin-bottom: 0;
     text-align: center;
@@ -144,7 +144,7 @@ footer {
 }
 
 #img {
-    float: left;
+    float: right;
 }
 
 #dog {
