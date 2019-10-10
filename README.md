@@ -9,7 +9,7 @@
 
 ## Installation
 * Get the code:
-```git clone https://verlitas.github.io/Homework1/```
+```git clone https://verlitas.github.io/My-Portfolio/```
 * Open in Visual Studio to build and run.
 
 ## Description
