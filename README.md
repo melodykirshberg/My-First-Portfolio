@@ -1,4 +1,5 @@
 # Homework 1
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
 ## Table Of Contents
 * [Installation](#installation)
