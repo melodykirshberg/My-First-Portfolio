@@ -1,25 +1,58 @@
-/*---------Classes*/
+header {
+    color: #4aaaa5;
+    text-align: left;
+    background: #ffffff;
+    font-size: 40px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom-width: 2px;
+}
 
-/*To fix float*/
+h3 {
+    display: block;
+}
+
+body {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/back.png");
+}
+
+section {
+    float: none;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+footer {
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    padding: 20px;
+    text-align: center;
+    background: #666666;
+}
 
 .container {
     width: 960px;
     justify-content: center;
     margin: auto;
+    padding: 20px;
 }
 
 .clearfix {
     overflow: auto;
 }
 
-/* Navigation */
-
 .navbar {
     overflow: visible;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    height: 100px;
+    height: 80px;
     background: white;
 }
 
@@ -31,44 +64,6 @@
     text-decoration: none;
 }
 
-/*-----------elements*/
-
-body {
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 32px;
-    color: #333;
-    background-image: url("../images/back.png");
-}
-
-header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
-    text-align: left;
-    background: #ffffff;
-    font-size: 40px;
-    border-bottom: 1px solid lightslategray;
-    margin-bottom: 25px;
-    padding-bottom: 10px;
-    border-bottom-width: 2px;
-}
-
-section {
-    float: none;
-    padding: 20px;
-    margin-bottom: 60px;
-}
-
-footer {
-    border-top: 8px solid #4aaaa5;
-    padding: 20px;
-    text-align: center;
-    clear: both;
-    background: #666666;
-}
-
-/* Sticky Footer */
-
 .sticky {
     overflow: visible;
     position: -webkit-sticky;
@@ -78,43 +73,6 @@ footer {
     background: white;
     /* margin: 20px; */
     width: 100%;
-}
-
-/*---------change to classes*/
-
-#name {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding-left: 40px;
-    margin: 20px;
-    font-size: 35px;
-    float: left;
-    width: 13%;
-    color: #fff;
-    background: #30948D;
-}
-
-#contact {
-    float: right;
-    background: white;
-}
-
-#port {
-    float: right;
-    background: white;
-}
-
-#about {
-    float: right;
-    background: white;
-}
-
-#full {
-    width: 100%;
-    overflow: auto;
-    align-content: center;
-    border-style: solid;
-    border-color: #dddddd;
-    background: white;
 }
 
 .divsion {
@@ -131,11 +89,6 @@ footer {
     padding: 0;
 }
 
-#dog {
-    float: left;
-    margin-right: 20px;
-}
-
 .work img {
     width: 100%;
 }
@@ -148,10 +101,6 @@ footer {
     padding: 15px 0;
     margin-bottom: 0;
     text-align: center;
-}
-
-h3 {
-    display: block;
 }
 
 .textarea {
@@ -168,10 +117,37 @@ h3 {
     width: 100%;
 }
 
-#img1 {
+#name {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding: 20px;
+    margin: 0 160px;
+    float: left;
+    font-size: 35px;
+    color: #fff;
+    background: #4aaaa5;
+}
+
+#link {
+    float: right;
+    margin: 0 auto;
+    background: white;
+}
+
+
+#full {
+    width: 100%;
+    overflow: auto;
+    align-content: center;
+    border-style: solid;
+    border-color: #dddddd;
+    background: white;
+}
+
+#img {
     float: left;
 }
 
-#img2{
+#dog {
     float: left;
+    margin-right: 20px;
 }
