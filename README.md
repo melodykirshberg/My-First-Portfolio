@@ -13,7 +13,9 @@ In your terminal type:
 * For further instructions, visit https://help.github.com.
 
 ## Screenshot
-![alt text](screenshot.png "Screenshot")
+![alt text](screenshots/ss1.png "Screenshot1")
+![alt text](screenshots/ss2.png "Screenshot2")
+![alt text](screenshots/ss3.png "Screenshot3")
 
 
 ## Credits
