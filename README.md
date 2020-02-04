@@ -1,10 +1,11 @@
 # My Portfolio
 ## Description
 A simple portfolio page designed to demonstrate my first week of learning CSS and HTML and implementing it into a working example. 
+
 ## Table of Contents
 * [Installation](#installation)
 * [Technologies-Libraries](#technologies-libraries)
-* [Screenshot](#screenshot)
+* [Demo](#demo)
 * [Credits](#credits)
 
 ## Installation
@@ -16,11 +17,12 @@ In your terminal type:
 ## Technologies-Libraries
 CSS - HTML - Git
 
-## Screenshot
+## Demo
 ![alt text](screenshots/ss1.png "Screenshot1")
 ![alt text](screenshots/ss2.png "Screenshot2")
 ![alt text](screenshots/ss3.png "Screenshot3")
 
+Live link: https://verlitas.github.io/My-Portfolio/
 
 ## Credits
 [UABootCamp](https://bootcamp.ce.arizona.edu/coding/)
