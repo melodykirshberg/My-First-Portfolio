@@ -25,4 +25,5 @@ CSS - HTML - Git
 Live link: https://verlitas.github.io/My-Portfolio/
 
 ## Credits
+[Melody Kirshberg](https://github.com/verlitas)  
 [UABootCamp](https://bootcamp.ce.arizona.edu/coding/)
