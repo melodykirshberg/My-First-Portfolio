@@ -10,7 +10,7 @@ A simple portfolio page designed to demonstrate my first week of learning CSS an
 
 ## Installation
 In your terminal type:
-```git clone https://verlitas.github.io/My-Portfolio/```
+```git clone https://github.com/verlitas/My-First-Portfolio.git```
 * Open in Visual Studio to build and run.
 * For further instructions, visit https://help.github.com.
 
@@ -22,7 +22,7 @@ CSS - HTML - Git
 ![alt text](screenshots/ss2.png "Screenshot2")
 ![alt text](screenshots/ss3.png "Screenshot3")
 
-Live link: https://verlitas.github.io/My-Portfolio/
+Live link: https://verlitas.github.io/My-First-Portfolio/
 
 ## Credits
 [Melody Kirshberg](https://github.com/verlitas)  
